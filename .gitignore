@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.Python
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Data
+data/raw/
+data/processed/
+# Or if you want to keep processed data in Git for small datasets, just:
+# data/raw/
+
+# Environments
+.venv/
+env/
+venv/
+*.env
+.conda/
+.vscode/
+
+# Jupyter Notebook Specific
+.ipynb_checkpoints/
