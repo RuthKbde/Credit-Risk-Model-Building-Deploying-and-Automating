@@ -1,0 +1,11 @@
+artifact_location: file:///C:/Users/Shib/Documents/10acadamy/Credit Risk Model Building,
+  Deploying, and Automating/mlruns/529635450376444799/models/m-00bc6997ebe54541bdfd998169b1c68a/artifacts
+creation_timestamp: 1751390862616
+experiment_id: '529635450376444799'
+last_updated_timestamp: 1751390869115
+model_id: m-00bc6997ebe54541bdfd998169b1c68a
+model_type: null
+name: final_best_model_randomforestclassifier
+source_run_id: dc8440f0acda41b9bf343006af798a9a
+status: 2
+status_message: null

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Shib/Documents/10acadamy/Credit Risk Model Building,
+  Deploying, and Automating/mlruns/529635450376444799/dc8440f0acda41b9bf343006af798a9a/artifacts
+end_time: 1751390869381
+entry_point_name: ''
+experiment_id: '529635450376444799'
+lifecycle_stage: active
+run_id: dc8440f0acda41b9bf343006af798a9a
+run_name: Register_Best_Model_RandomForestClassifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751390861980
+status: 3
+tags: []
+user_id: Shib

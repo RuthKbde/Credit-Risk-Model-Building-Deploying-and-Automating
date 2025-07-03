@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Shib/Documents/10acadamy/Credit Risk Model Building,
+  Deploying, and Automating/mlruns/529635450376444799/b7c92a255a75418c8bb507b98162bb06/artifacts
+end_time: 1751390748370
+entry_point_name: ''
+experiment_id: '529635450376444799'
+lifecycle_stage: active
+run_id: b7c92a255a75418c8bb507b98162bb06
+run_name: LogisticRegression_GridSearch
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751390714170
+status: 3
+tags: []
+user_id: Shib

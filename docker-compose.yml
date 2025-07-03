@@ -1,0 +1,19 @@
+
+services:
+  api:
+    build:
+      context: . # Build the image using the Dockerfile in the current directory
+      dockerfile: Dockerfile # Specify the Dockerfile to use
+    ports:
+      - "8000:8000" # Map host port 8000 to container port 8000
+    environment:
+      # Pass your MLflow Model URI as an environment variable to the container
+      # IMPORTANT: Replace with your actual MLflow Model URI
+      - MLFLOW_MODEL_URI=models:/credit_risk_model/Production
+    # Optional: Mount your project directory into the container for easier development
+    # Uncomment the 'volumes' section below if you want changes in your local code
+    # to be immediately reflected in the container without rebuilding the image.
+    # REMOVE OR COMMENT OUT FOR PRODUCTION BUILDS.
+    # volumes:
+    #   - .:/app
+    restart: on-failure # Restart the service if it fails

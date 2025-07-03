@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/Shib/Documents/10acadamy/Credit Risk Model Building,
+  Deploying, and Automating/mlruns/529635450376444799/models/m-7473176be43e410aa54cfa2481f0c68d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.23
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.1
+model_id: m-7473176be43e410aa54cfa2481f0c68d
+model_size_bytes: 3313
+model_uuid: m-7473176be43e410aa54cfa2481f0c68d
+prompts: null
+run_id: b7c92a255a75418c8bb507b98162bb06
+utc_time_created: '2025-07-01 17:25:34.402601'
